@@ -4,11 +4,6 @@
  * and open the template in the editor.
  */
 
-import junit.runner.Version;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -90,5 +85,4 @@ public class BoundedQueueTest {
         instance.enQueue(o);
         assertEquals(instance.toString(), "[2, 4, 1]");
     }
-    
 }
