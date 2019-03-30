@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const router = express.Router();
+const reader = express.Router();
 const hostname = '127.0.0.1';
 const port = 8000;
 

@@ -1,30 +1,41 @@
- 
-<html>
-<header>
-    <title>Test</title>
-    <script>
-        function readFile(){
-            // Requiring fs module in which 
-            // readFile function is defined. 
-            const fs = require('fs') 
-
-            // Reading data in utf-8 format 
-            // which is a type of character set. 
-            // Instead of 'utf-8' it can be  
-            // other character set also like 'ascii' 
-            fs.readFile('testResults', 'utf-8', (err, data) => { 
-                if (err) throw err; 
-                // Converting Raw Buffer to text 
-                // data using tostring function. 
-                console.log(data); 
-                //document.getElementById("content").innerHTML = data;
-            })            
-        }  
-    </script>
-</header>
-<body onload="readFile()">
-    <h1>Hello wirld</h1>
-    <p id="content"></p>
-</body>
-</html>
-    
+<html><header><title>TestResults</title></header><body><p>
+<br>[INFO] Scanning for projects...
+<br>[INFO]                                                                         
+<br>[INFO] ------------------------------------------------------------------------
+<br>[INFO] Building testProject 1
+<br>[INFO] ------------------------------------------------------------------------
+<br>[INFO] 
+<br>[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ testProject ---
+<br>[INFO] Using 'UTF-8' encoding to copy filtered resources.
+<br>[INFO] skip non existing resourceDirectory /media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/src/main/resources
+<br>[INFO] 
+<br>[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ testProject ---
+<br>[INFO] Nothing to compile - all classes are up to date
+<br>[INFO] 
+<br>[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ testProject ---
+<br>[INFO] Using 'UTF-8' encoding to copy filtered resources.
+<br>[INFO] skip non existing resourceDirectory /media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/src/test/resources
+<br>[INFO] 
+<br>[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ testProject ---
+<br>[INFO] Nothing to compile - all classes are up to date
+<br>[INFO] 
+<br>[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ testProject ---
+<br>[INFO] 
+<br>[INFO] -------------------------------------------------------
+<br>[INFO]  T E S T S
+<br>[INFO] -------------------------------------------------------
+<br>[INFO] Running testPackage.AppTest
+<br>[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in testPackage.AppTest
+<br>[INFO] 
+<br>[INFO] Results:
+<br>[INFO] 
+<br>[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+<br>[INFO] 
+<br>[INFO] ------------------------------------------------------------------------
+<br>[INFO] BUILD SUCCESS
+<br>[INFO] ------------------------------------------------------------------------
+<br>[INFO] Total time: 1.741 s
+<br>[INFO] Finished at: 2019-03-30T17:39:05-06:00
+<br>[INFO] Final Memory: 12M/242M
+<br>[INFO] ------------------------------------------------------------------------
+</p></body></html>

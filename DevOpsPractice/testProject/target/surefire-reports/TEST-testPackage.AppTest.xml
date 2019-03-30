@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/target/surefire/surefirebooter7912571968321034673.jar /media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/target/surefire 2019-03-30T14-30-04_824-jvmRun1 surefire2440438933290228804tmp surefire_05864818173506348625tmp"/>
+    <property name="sun.java.command" value="/media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/target/surefire/surefirebooter3538007517500155519.jar /media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/target/surefire 2019-03-30T17-39-04_766-jvmRun1 surefire4703540059274517345tmp surefire_06028077710730489266tmp"/>
     <property name="surefire.test.class.path" value="/media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/target/test-classes:/media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/target/classes:/home/jocapear/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jocapear/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/jocapear"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/target/surefire/surefirebooter7912571968321034673.jar"/>
+    <property name="surefire.real.class.path" value="/media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo Semestre/Testing y calidad de software/software-quality-testing/DevOpsPractice/testProject/target/surefire/surefirebooter3538007517500155519.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
@@ -57,6 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="testPackage.AppTest" time="0"/>
+  <testcase name="shouldAnswerWithTrue" classname="testPackage.AppTest" time="0.001"/>
   <testcase name="testSum" classname="testPackage.AppTest" time="0"/>
 </testsuite>

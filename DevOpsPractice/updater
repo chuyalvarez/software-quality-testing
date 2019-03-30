@@ -1,5 +1,7 @@
 cd ../../media/jocapear/Windows/Users/JOSECARLOS/Desktop/ISC/8vo\ Semestre/Testing\ y\ calidad\ de\ software/software-quality-testing/DevOpsPractice
 git pull https://github.com/chuyalvarez/software-quality-testing.git devops
 cd testProject
-mvn test >  ../testResults
+echo "<html><header><title>TestResults</title></header><body><p>" > ../index.html
+mvn test | sed -r 's/(\[INFO\])/<br>\1/;' >>  ../index.html
+echo "</p></body></html>" >> ../index.html
 echo "---------------------------------------------------"
