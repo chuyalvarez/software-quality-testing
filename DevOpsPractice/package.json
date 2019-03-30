@@ -10,6 +10,8 @@
   "author": "Josè Carlos Peñuelas Armenta",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6"
   }
 }
